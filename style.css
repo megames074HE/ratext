@@ -1,0 +1,18 @@
+:root {
+    --background-color: gray;
+    --primary-color: ;
+    --text-color: ;
+    --title-color: white;
+    --text-font: ;
+    --title-font: ;
+}
+
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
