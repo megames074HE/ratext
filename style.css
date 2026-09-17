@@ -1,10 +1,10 @@
 :root {
     --background-color: gray;
-    --primary-color: ;
-    --text-color: ;
-    --title-color: white;
-    --text-font: ;
-    --title-font: ;
+    --primary-color: rgb(76, 76, 76);
+    --text-color: rgb(255, 255, 255);
+    --title-color: rgb(216, 215, 215);
+    --text-font: "Work Sans", sans-serif;
+    --title-font: "Roboto", sans-serif;
 }
 
 
@@ -12,7 +12,54 @@ body {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    width: 100%;
+    
+}
+
+.header-title {
+   margin-left: 10px;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+
+article p, li{
+    color: var(--text-color);
+    font-family: var(--text-font);
+
 }
 
 
+article {
+    margin: 20px;
+}
 
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: var(--primary-color);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.footer-text {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+footer h3 {
+    margin: 0;
+    padding: 0;
+    
+}
