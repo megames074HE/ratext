@@ -1,7 +1,7 @@
 :root {
-    --background-color: gray;
+    --background-color: rgb(111, 111, 111);
     --primary-color: rgb(76, 76, 76);
-    --text-color: rgb(255, 255, 255);
+    --text-color: rgb(210, 210, 210);
     --title-color: rgb(216, 215, 215);
     --text-font: "Work Sans", sans-serif;
     --title-font: "Roboto", sans-serif;
@@ -30,6 +30,8 @@ header {
 article p, li{
     color: var(--text-color);
     font-family: var(--text-font);
+    font-weight: 500;
+    font-size: 20px;
 
 }
 
